@@ -1,0 +1,36 @@
+.filterd-dishes{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    li{
+        background-color: #ffb902;
+        color: white;
+        padding: 12px 30px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all ease 0.3s;
+        margin-right: 30px;
+        margin-bottom: 20px;
+
+        &:active {
+            background-color: black;
+        }
+        &:hover{
+            background-color: chartreuse;
+        }
+    
+    }
+
+h4{
+    color: rgb(236, 240, 36);
+   
+   margin-top: 1px;
+   font-size: 15px
+}
+h5{
+    color: wheat; 
+    font-size: 20px; 
+ }
+}
